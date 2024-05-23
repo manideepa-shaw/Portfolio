@@ -5,12 +5,12 @@
 .section .text{
     text-align: justify;
     font-size: 2rem;
-    padding: 0 15rem;
+    padding: 0 10rem;
 }
 @media (max-width: 768px)
 {
     .section .text{
         padding: 0;
-        margin: 0 8.5rem;
+        margin: 0 5rem;
     }
 }

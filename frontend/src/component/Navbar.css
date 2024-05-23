@@ -14,7 +14,7 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.75);
     z-index: 100;
-    margin: 0 15rem;
+    /* margin: 0 15rem; */
 }
 .nav-items{
     list-style: none;
