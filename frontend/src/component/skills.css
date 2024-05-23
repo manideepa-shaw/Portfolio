@@ -1,0 +1,66 @@
+.skills{
+    overflow-x: hidden;
+    display: flex;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.skills .card img
+{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+}
+.skills .card
+{
+    flex: 0 0 18%;
+    /* flex-grow: 1; */
+    border: .5px solid var(--color-blue);
+    /* width: 250px;
+    height: 100px; */
+    padding: 1rem;
+    /* margin: 0 1rem; */
+    color: rgb(167, 155, 155);
+    transition: transform 0.5s;
+    margin-bottom: 2rem;
+}
+.skills .card:hover
+{
+    color: white;
+    transform: scale(1.1);
+    border: none;
+}
+
+section{
+    font-size: 2rem;
+    padding: 0 15rem;
+}
+@media (max-width: 943px)
+{
+    .skills .card
+    {
+        flex: 0 0 20%;
+    }
+}
+@media (max-width: 768px)
+{
+    section{
+        padding: 0;
+        margin: 0 8.5rem;
+    }
+    .skills .card{
+        flex: 0 0 35%;
+    }
+}
+@media (max-width: 423px)
+{
+    .skills .card
+    {
+        flex: 0 0 49%;
+    }
+    .skills
+    {
+        justify-content: center;
+    }
+}

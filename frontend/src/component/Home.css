@@ -1,0 +1,87 @@
+.landing
+{
+    margin: var(--nav-height) 0;
+    overflow-x: hidden;
+}
+.landing ul
+{
+    flex-direction: row-reverse;
+}
+.landing li
+{
+    margin: 1rem;
+    z-index: 1;
+    position: sticky;
+}
+.landing .text
+{
+    width: 450px;
+    padding-right: 2px;
+}
+.landing .change{
+    
+}
+@keyframes typing {
+    0%
+    {
+        /* width: 0px; */
+        border-right: 2px solid var(--color-blue);
+    }
+    100%
+    {
+        width: 520px;
+        border-right: 0;
+    }
+}
+.landing img
+{
+    width: 30rem;
+    border-radius: 50%;
+    padding: 2rem;
+    /* border: 2px solid var(--color-blue); */
+    box-shadow: inset 1px 2px 10px 0px var(--color-blue),1px 2px 10px 0px var(--color-blue);
+    transition: padding .5s;
+}
+.landing img:hover
+{
+    padding: 1.5rem;
+    animation: rotate 1s infinite ease-in-out;
+}
+@keyframes rotate {
+    0%
+    {
+        box-shadow: inset 1px 5px 3px 0px var(--color-blue);
+    }
+    25%
+    {
+        box-shadow: inset -5px 1px 3px 0px var(--color-blue);
+    }
+    50%
+    {
+        box-shadow: inset 1px -5px 3px 0px var(--color-blue);
+    }
+    75%
+    {
+        box-shadow: inset 5px 1px 3px 0px var(--color-blue);
+    }
+    100%
+    {
+        box-shadow: inset 1px 5px 3px 0px var(--color-blue);
+    }
+}
+@media (max-width: 768px)
+{
+    .landing ul
+    {
+        display: block;
+    }
+    .landing .text
+    {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 4rem;
+    }
+    /* .landing li{
+        margin-top: ;
+    } */
+}

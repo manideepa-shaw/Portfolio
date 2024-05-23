@@ -1,0 +1,16 @@
+.about{
+    margin-top: var(--nav-height);
+    overflow-x: hidden;
+}
+.section .text{
+    text-align: justify;
+    font-size: 2rem;
+    padding: 0 15rem;
+}
+@media (max-width: 768px)
+{
+    .section .text{
+        padding: 0;
+        margin: 0 8.5rem;
+    }
+}

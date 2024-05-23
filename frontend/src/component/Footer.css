@@ -1,0 +1,52 @@
+.footer{
+    padding: 5rem;
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0,.7);
+    width: 100%;
+    overflow: hidden;
+    border-top: .5px solid var(--color-blue);
+    position: sticky;
+    z-index: 1;
+}
+.footer h4{
+    font-size: 2rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+.social{
+    background-color: var(--color-blue);
+}
+.social:hover .social-icon, .social-icon:hover{
+    transform: translateY(-5px);
+}
+.footer ul
+{
+    display: flex;
+    justify-content: center;
+}
+.footer ul li{
+    margin: 2rem;
+}
+.b{
+    border: 2px solid black;
+}
+.callmail{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;
+    margin: 0 2rem;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 1px -1px 5px 0 var(--color-blue);
+}
+@media (max-width:350px) {
+    .callmail{
+        margin: 0 0.5rem;
+    }
+}
