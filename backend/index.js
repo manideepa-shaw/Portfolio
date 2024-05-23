@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // for cors operation
 app.use((req,res,next)=>{
-    res.setHeader('Access-Control-Allow-Origin',`${process.env.REQ}`) //any browser can send the request
+    res.setHeader('Access-Control-Allow-Origin','https://portfolio-manideepa-shaws-projects.vercel.app/') //any browser can send the request
     res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
     res.setHeader('Access-Control-Allow-Methods','POST')
     next()
