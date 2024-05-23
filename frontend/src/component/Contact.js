@@ -23,7 +23,7 @@ const Contact = () => {
       setisLoading(true)
       e.preventDefault();
       try{
-        const res = await fetch("http://localhost:8000/api/mail",{
+        const res = await fetch("https://portfolio-api-manideepa-shaws-projects.vercel.app/api/mail",{
           method : 'POST',
           headers:{
             'Content-Type': 'application/json'
