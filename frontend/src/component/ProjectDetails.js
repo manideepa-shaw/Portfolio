@@ -9,6 +9,15 @@ export const data = [
         l_type: "Github Link"
     },
     {
+        img : "moresin.PNG",
+        p_type : "E-Commerce Website",
+        tech : "MERN, Docker",
+        desc : "A perfect responsive e-commerce website including payment integration(stripe), proper authentication and authorization. Key features include : Containerization using docker, encrypting passwords using bcrypt,  client-side caching using localStorage, email verification using OTP",
+        pname : "Mo Resins",
+        link : "https://github.com/manideepa-shaw/MoResins",
+        l_type : "Github Link"
+    },
+    {
         img : "bookyours.PNG",
         p_type : "FULL STACK PROJECT",
         tech : "HTML, CSS, JS, PHP, MySQL",
